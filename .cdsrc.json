@@ -1,1 +1,27 @@
-{}
+{
+    "[development]": {
+      "auth": {
+       "passport": {
+        "strategy": "mock",
+        "users": {
+          "risk.viewer@tester.com": {
+           "password": "initial",
+           "ID": "riskviewer",
+           "userAttributes": {
+             "email": "risk.viewer@tester.com"
+           },
+           "roles": ["RiskViewer"]
+         },
+          "risk.manager@tester.com": {
+           "password": "initial",
+           "ID": "riskmanager",
+           "userAttributes": {
+             "email": "risk.manager@tester.com"
+           },
+           "roles": ["RiskManager"]
+         }
+        }
+       }
+      }
+     }
+    }
