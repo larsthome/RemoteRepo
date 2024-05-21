@@ -1,5 +1,5 @@
 {
-  "name": "Clone",
+  "name": "^Clone",
   "version": "3.0.0",
   "description": "Template for the Learning Journey Building side-by-side extensions on SAP BTP",
   "author": "m.haug@sap.com",
